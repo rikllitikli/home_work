@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border-top: solid 40px #af2024;
+}
+section {
+    background-image: url("../img/back_pizza.jpg");
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    border-bottom: solid 33px #3f0002;
+    padding-top: 19px;
+}
+
+footer {
+    border-bottom: solid 454px black;
+}
+
+.logo {
+    max-width: 961px;
+    margin: auto;
+    margin-bottom: 21px;
+}
+
+
+.container  {
+    max-width: 710px;
+    margin: auto;
+}
+
+.content {
+    background-color: white;
+    padding: 63px 74px 128px;
+}
+
+.content_border {
+    background-color: #98161b;
+    padding: 27px 18px 28px;
+}
+
+.content_border h3 {
+    color: white;
+    font-size: 20px;
+}
+
+iframe {
+    margin-bottom: 29px;
+}
+
+h4 {
+    font-size: 14px;
+    color: #98161b;
+    margin-bottom: 18px;
+}
+
+h4 span {
+    color: #7d7d7d;
+}
+
+h4:after {
+    display: block;
+    content: "";
+    border-bottom: dotted #98161b;
+    max-width: 43px;
+    margin-top: 19px;
+}
+
+p {
+    font-size: 12px;
+    color: #98161b;
+    line-height: 18px;
+}
