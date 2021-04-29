@@ -7,9 +7,32 @@ header {
     border-top: solid 40px #af2024;
 }
 
-section {
+.social {
+    position: absolute;
+    right: 0;
+    top: 222px;
+    position: fixed;
+}
+
+.social a {
+    background-color: #98161b;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 33px;
+    display: block;
+}
+
+.social a:hover {
+    background-color: #850409;
+    transition: 0.3s;
+}
+
+
+.vidio_title {
     background-image: url("../img/back_pizza.jpg");
     height: 818px;
+    width: 100%;
     background-size: cover;
     padding-top: 19px;
 
